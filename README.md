@@ -8,7 +8,7 @@ The **CsvReader** class allows reading from a CSV file given its path or its con
 
 It is designed to load one line at a time and retrieve the values of the individual fields using the names included in the header row.
 
-If the file does include a header row, it is possible to infer the field names.
+If the file does include a header row, it is possible to inject the field names.
 
 It supports multiple separators and encodings, and it allows to convert empty strings to null values.
 
